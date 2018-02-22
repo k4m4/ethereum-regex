@@ -1,0 +1,30 @@
+{
+  "name": "ethereum-regex",
+  "version": "1.0.0",
+  "description": "Regular expression for matching Ethereum (ETH) addresses.",
+  "license": "MIT",
+  "repository": "k4m4/ethereum-regex",
+  "author": {
+    "name": "Nikolaos Kamarinakis",
+    "url": "nikolaskama.me",
+    "email": "nikolaskam@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "ethereum",
+    "address",
+    "regex"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "*"
+  }
+}
