@@ -15,16 +15,16 @@
 ```js
 const ethereumRegex = require('ethereum-regex');
 
-ethereumRegex().test('nodejsr0cks 0x281055afc982d96fab65b3a49cac8b878184cb16');
+ethereumRegex().test('nodejsrocks 0x281055afc982d96fab65b3a49cac8b878184cb16');
 //=> true
 
-ethereumRegex({exact: true}).test('nodejsr0cks 0x281055afc982d96fab65b3a49cac8b878184cb16 foo');
+ethereumRegex({exact: true}).test('nodejsrocks 0x281055afc982d96fab65b3a49cac8b878184cb16 foo');
 //=> false
 
 ethereumRegex.v6({exact: true}).test('0x281055afc982d96fab65b3a49cac8b878184cb16');
 //=> true
 
-'nodejsr0cks 0x6f46cf5569aefa1acc1009290c8e043747172d89 unicorn 0x90e63c3d53e0ea496845b7a03ec7548b70014a91 rainbow'.match(ethereumRegex());
+'nodejsrocks 0x6f46cf5569aefa1acc1009290c8e043747172d89 unicorn 0x90e63c3d53e0ea496845b7a03ec7548b70014a91 rainbow'.match(ethereumRegex());
 //=> ['0x6f46cf5569aefa1acc1009290c8e043747172d89', '0x90e63c3d53e0ea496845b7a03ec7548b70014a91']
 ```
 
