@@ -48,12 +48,17 @@ Only match an exact string. Useful with `RegExp#test()` to check if a string is 
 - [bitcoin-regex](https://github.com/kevva/bitcoin-regex) - ethereum-regex was inspired by this project by [kevva](https://github.com/kevva).
 - [ip-regex](https://github.com/sindresorhus/ip-regex) - most of the documentation format has been adapted from this project by [sindresorhus](https://github.com/sindresorhus).
 
+
 ## Related
 
 - [litecoin-regex](https://github.com/k4m4/litecoin-regex) - Regular expression for matching Litecoin (LTC) addresses.
 - [bitcoincash-regex](https://github.com/k4m4/bitcoincash-regex) - Regular expression for matching Bitcoin Cash (BCH) addresses.
+- [monero-regex](https://github.com/k4m4/monero-regex) - Regular expression for matching Monero (XMR) addresses.
 - [dash-regex](https://github.com/k4m4/dash-regex) - Regular expression for matching Dash addresses.
+- [ripple-regex](https://github.com/k4m4/ripple-regex) - Regular expression for matching Ripple (XRP) addresses.
+- [neo-regex](https://github.com/k4m4/neo-regex) - Regular expression for matching NEO addresses.
 - [dogecoin-regex](https://github.com/k4m4/dogecoin-regex) - Regular expression for matching Dogecoin (DOGE) addresses.
+
 
 ## License
 
