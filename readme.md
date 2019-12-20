@@ -43,12 +43,6 @@ Default: `false` *(Matches any ETH address in a string)*
 Only match an exact string. Useful with `RegExp#test()` to check if a string is an ETH address.
 
 
-## Credits
-
-- [bitcoin-regex](https://github.com/kevva/bitcoin-regex) - ethereum-regex was inspired by this project by [kevva](https://github.com/kevva).
-- [ip-regex](https://github.com/sindresorhus/ip-regex) - most of the documentation format has been adapted from this project by [sindresorhus](https://github.com/sindresorhus).
-
-
 ## Related
 
 - [litecoin-regex](https://github.com/k4m4/litecoin-regex) - Regular expression for matching Litecoin (LTC) addresses.
