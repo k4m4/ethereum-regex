@@ -1,5 +1,5 @@
 import test from 'ava'
-import m from './'
+import m from '.'
 
 const fixtures = [
 	'0x281055afc982d96fab65b3a49cac8b878184cb16',
@@ -28,7 +28,7 @@ test('Non-exact ETH addresses', t => {
 	for (const x of fixtures) {
 		t.is((m().exec(`foo ${x} bar`) || [])[0], x)
 	}
-	
+
 	t.is(m().exec('ethereum:0x90e63c3d53e0ea496845b7a03ec7548b70014a91')[0], '0x90e63c3d53e0ea496845b7a03ec7548b70014a91')
 })
 
