@@ -10,7 +10,7 @@
     "email": "nikolaskam@gmail.com"
   },
   "engines": {
-    "node": ">=9"
+    "node": ">=10"
   },
   "main": "index.js",
   "scripts": {
